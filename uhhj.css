@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 175); 
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding:50px;
+    border-radius: 10px;
+
+}
+
+.profile-card {
+    background-color: antiquewhite;
+    border: 20px rgb(250, 240, 202) white ;
+    border-radius: 10px solid black ;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 1);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px;
+    
+}
+
+.profile-name {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #333;
+}
+
+.profile-info {
+    font-size: 1em;
+    color: #777;
+    margin: 20px;
+}
+
+.profile-info {
+    font-size: 0.9em;
+    color: #555;
+    padding: 5px 0px;
+    border: 1px solid #eee;
+}
+
+.font {
+
+    font-size: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10;
+}
+
+
+.fa-brands.fa-instagram {
+
+    color: rgb(131 58 180);
+    gap: 10;
+
+    display: inline-block;
+
+}
+
+.fa-brands.fa-x-twitter {
+    color: black;
+
+    display: inline-block;
+
+}
+
+.fa-brands.fa-linkedin {
+
+    color: rgb(0, 0, 255);
+
+    display: inline-block;
+
+
+}
